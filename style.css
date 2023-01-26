@@ -1,0 +1,248 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+
+    --dark-purple-color: #290742;
+    --light-purple-color: #9e6dc2;
+    --bright-green-color: #4fff4b;
+}
+
+body {
+    margin: 6.5rem 13.5rem;
+}
+
+/* header */
+
+body::before {
+    content: '';
+    height: 53.7rem;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    background-color: var(--dark-purple-color);
+}
+
+.line-header {
+    width: 100vw;
+    border: 5px solid var(--bright-green-color);
+
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+    position: relative;
+    right: 15.2rem;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    gap: 4rem;
+    list-style: none;
+
+    position: relative;
+    left: 3rem;
+}
+
+#search-bar {
+    width: 180px;
+    height: 30px;
+    
+    position: relative;
+    left: 25px;
+
+    padding-left: 1rem;
+
+    border: none;
+    border-radius: 4px 0 0 4px;
+
+    outline: none;
+
+    background: #170027;
+
+    color: white;
+    font-family: 'Roboto';
+}
+
+#search-bar::placeholder {
+    color: white;
+    font-family: 'Roboto';
+}
+
+#search-button {
+    width: 5rem;
+    height: 3rem;
+
+    border: none;
+    border-radius: 0 4px 4px 0;
+    background-color: var(--light-purple-color);
+
+    color: var(--light-purple-color);
+
+    position: relative;
+    left: 1.8rem;
+}
+
+#search-button:hover {
+    background-color: #8359a1;
+    color:#8359a1;
+    cursor: pointer;
+}
+
+form img {
+    position: relative;
+    top: 3px;
+    right: 1.6rem;
+    z-index: 0;
+
+    height: 1.5rem;
+}
+
+.header-post {
+    display: flex;
+    justify-content: space-between;
+
+    gap: 3rem;
+
+    margin-top: 6rem;
+}
+
+.header-text {
+    display: flex;
+    flex-direction: column;
+
+    gap: 2rem;
+
+    width: 40rem;
+}
+
+#header-post-img {
+    max-width: 52rem;
+    max-height: 30.6rem;
+}
+
+/* main posts */
+.main-posts {
+    display: flex;
+    justify-content: space-between;
+
+    gap: 5rem;
+}
+
+.main-posts img {
+    width: 48rem;
+    margin-bottom: 1rem;
+}
+
+.line-post {
+    width: 40rem;
+    border: 1px solid #F2E7FA;
+
+    margin: 2rem 0 2rem 3rem;
+}
+
+/* small posts */
+.small-posts {
+    display: flex;
+    gap: 3rem;
+
+    margin-top: 6rem;
+}
+
+.card-small img {
+    width: 30rem;
+}
+
+
+
+/* fonts and colors */
+li a {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: white;
+
+    text-decoration: none;
+}
+
+li a strong {
+    border-left: 2px solid var(--bright-green-color);
+    padding-left: 3px;
+}
+
+h1 {
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 2.9rem;
+    color: var(--light-purple-color);
+}
+
+header p {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 2.7rem;
+    color: white;
+}
+
+.header-post a {
+    text-decoration: none;
+    
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 1.8rem;
+    line-height: 2.7rem;
+    color: var(--light-purple-color);
+
+    display: flex;
+    align-items: center;
+    gap: .8rem;
+
+    width: 11.5rem;
+}
+
+li a:hover {
+    color: var(--bright-green-color)
+}
+
+li a strong:hover {
+    border-left: 2px solid #ffffff;
+}
+
+.header-text a:hover {
+    color: var(--bright-green-color);
+}
+
+h2 {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 2.3rem;
+    color: var(--dark-purple-color);
+
+    margin: 8px 0 8px 0;
+}
+
+h2:hover {
+    color: var(--light-purple-color);
+    cursor: pointer;
+    font-size: 2.4rem;
+}
+
+main p {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 1.3rem;
+    color: black;
+}
+
+
