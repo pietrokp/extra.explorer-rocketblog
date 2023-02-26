@@ -1,4 +1,4 @@
-<h1 align="center"> Desafio Extra - RocketBlog </h1>
+
 
 <p align="center">
 Projetos e desafios extras encontrados na Biblioteca Explorer, da Rocketseat.
